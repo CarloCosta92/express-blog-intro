@@ -10,6 +10,9 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+//configurazione asset
+app.use(express.static('public'));
+
 //definizione rotta /
 app.get("/" , (req,res) => {
     res.send("Server del mio blog")
