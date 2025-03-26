@@ -26,31 +26,31 @@ app.get("/bacheca" , (req,res) => {
         {
             titolo: "ciambellone",
             contenuto: "ciambella con zucchero",
-            immagine: "http://localhost:3000/images/ciambellone.jpeg",
+            immagine: "images/ciambellone.jpeg",
             tags: ["piatto" , "zucchero"]
         },
         {
             titolo: "craker",
             contenuto: "tagliere con crakers",
-            immagine: "http://localhost:3000/images/cracker_barbabietola.jpeg",
+            immagine: "images/cracker_barbabietola.jpeg",
             tags: ["craker" , "barbabietola"]
         },
         {
             titolo: "panefritto",
             contenuto: "piatto con pan fritto",
-            immagine: "http://localhost:3000/images/pane_fritto_dolce.jpeg",
+            immagine: "images/pane_fritto_dolce.jpeg",
             tags: ["piatto" , "panfritto"]
         },
         {
             titolo: "pasta",
             contenuto: "piatto di pasta",
-            immagine: "http://localhost:3000/images/pasta_barbabietola.jpeg",
+            immagine: "images/pasta_barbabietola.jpeg",
             tags: ["piatto" , "pasta"]
         },
         {
             titolo: "torta",
             contenuto: "torta su portatorte",
-            immagine: "http://localhost:3000/images/torta_paesana.jpeg",
+            immagine: "images/torta_paesana.jpeg",
             tags: ["portatorta" , "torta"]
         },
 
