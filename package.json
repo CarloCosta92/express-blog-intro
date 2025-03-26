@@ -4,10 +4,13 @@
   "description": "Creiamo il nostro blog personale e giorno dopo giorno lo potremo arricchire con nuove funzionalità sulla base di quello che impareremo.",
   "main": "app.js",
   "scripts": {
-    "start" : "node app.js",
-    "watch" : "node --watch app.js"
+    "start": "node app.js",
+    "watch": "node --watch app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
